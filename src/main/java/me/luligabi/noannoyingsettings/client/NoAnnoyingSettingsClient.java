@@ -15,7 +15,7 @@ public class NoAnnoyingSettingsClient implements ClientModInitializer {
     private String provider(String filename) {
         return "# No Annoying Settings Configuration File\n\n" +
 
-                "# Keep in mind this will only prevent the mod of changing the settings every start. If the config is already set, it will remain the same." +
+                "# Keep in mind this will only prevent the mod of changing the settings every start. If the config is already set, it will remain the same.\n\n" +
 
                 "disableAutoJump=true\n" +
                 "disableMusic=true";
