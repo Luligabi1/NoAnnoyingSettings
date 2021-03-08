@@ -11,6 +11,7 @@
     "repo": "https:github.com/Luligabi1/NoAnnoyingSettings"
   },
   "license": "MIT",
+  "icon": "assets/noannoyingsettings/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
