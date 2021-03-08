@@ -29,7 +29,6 @@ public class NoAnnoyingSettingsClient implements ClientModInitializer {
             if(config.getOrDefault("disableMusic", true)) {
                 MinecraftClient.getInstance().options.setSoundVolume(SoundCategory.MUSIC, 0);
             }
-            MinecraftClient.getInstance().options.skipMultiplayerWarning = true;
         });
     }
 }
