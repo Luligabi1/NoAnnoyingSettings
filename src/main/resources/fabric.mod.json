@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "noannoyingsettings",
+  "version": "${version}",
+  "name": "NoAnnoyingSettings",
+  "description": "Disable/change annoying default minecraft settings!",
+  "authors": [
+    "Luligabi1"
+  ],
+  "contact": {
+    "repo": "https:github.com/Luligabi1/NoAnnoyingSettings"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.luligabi.noannoyingsettings.client.NoAnnoyingSettingsClient"
+    ]
+  },
+  "mixins": [
+    "noannoyingsettings.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
