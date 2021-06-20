@@ -5,7 +5,7 @@
   "name": "NoAnnoyingSettings",
   "description": "Disable/change annoying default minecraft settings!",
   "authors": [
-    "Luligabi1"
+    "Luligabi"
   ],
   "contact": {
     "repo": "https:github.com/Luligabi1/NoAnnoyingSettings"
@@ -21,6 +21,6 @@
   "depends": {
     "fabricloader": ">=0.11.2",
     "fabric": "*",
-    "minecraft": "1.16.5"
+    "minecraft": ">=1.17"
   }
 }

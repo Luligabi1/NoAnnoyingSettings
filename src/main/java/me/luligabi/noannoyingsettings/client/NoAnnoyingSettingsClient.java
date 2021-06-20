@@ -8,6 +8,8 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.tutorial.TutorialStep;
 import net.minecraft.sound.SoundCategory;
 
+import java.awt.*;
+
 @Environment(EnvType.CLIENT)
 public class NoAnnoyingSettingsClient implements ClientModInitializer {
 
